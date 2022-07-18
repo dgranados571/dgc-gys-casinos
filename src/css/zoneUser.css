@@ -29,6 +29,24 @@
     margin: 0rem 1rem;
 }
 
+.bottom-custom-secondary {
+    width: 10rem;
+    background-color: #5C5C5C;
+    color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 20px;
+    padding: 5px 0px;
+    margin: 0rem 1rem;
+}
+
+.bottom-custom-secondary:hover {
+    width: 10rem;
+    background-color: #E3E3E3;
+    color: #5C5C5C;
+    border: 1px solid #E3E3E3;
+    margin: 0rem 1rem;
+}
+
 .div-buttom-registra {
     display: flex;
     justify-content: center;
@@ -57,23 +75,39 @@
     margin-bottom: 0;
 }
 
-.icon-fa-edit{
+.btn-editar{
     color: #3333CC;
+}
+
+.btn-editar:hover{
+    color: orange;
+}
+
+.icon-fa-edit{
     font-size: 22px;
 }
 
-.icon-fa-edit:hover{
-    color: orange;
+.btn-salvar{
+    color: #3333CC;
+}
+
+.btn-salvar:hover{
+    color: #66C00B;
+}
+
+.icon-fa-save{
     font-size: 22px;
+}
+
+.btn-delete{
+    color: #F44336;
+}
+
+.btn-delete:hover{
+    color: orange;
 }
 
 .icon-fa-delete{
-    color: #F44336;
-    font-size: 22px;
-}
-
-.icon-fa-delete:hover{
-    color: orange;
     font-size: 22px;
 }
 
@@ -135,6 +169,51 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: 500;
+}
+
+.form-control-error {
+    border: 1px solid red;
+}
+
+.div-cargando-active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: auto;
+    display: block;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    background-color: rgba(207, 226, 255, 0.7);
+}
+
+.div-gift-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-size-gift {
+    height: 5rem;
+    width: 5rem;
+}
+
+.div-modal-container {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.gif-element {
+    max-width: 100%;
+}
+
+.div-row-elements{
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (min-device-width: 1400px) {}

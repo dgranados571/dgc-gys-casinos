@@ -113,6 +113,7 @@ export const MenuHeader = ({ setStateMenu, setRedirect }) => {
     }
 
     const cierraSesion = () => {
+        sessionStorage.removeItem('usuarioApp')
         setRedirect({
             autorizado: false,
             usuario: '',

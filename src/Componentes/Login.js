@@ -27,14 +27,15 @@ export const Login = ({ setRedirect }) => {
     }
 
     const clickLogin = () => {
-
         if (usuario === 'admin' && contrasenia === 'admin') {
+            sessionStorage.setItem('usuarioApp', usuario)
             setRedirect({
                 autorizado: true,
                 usuario: 'Admin',
                 rol: 'ADMIN'
             });
         } else if (usuario === 'user' && contrasenia === 'user') {
+            sessionStorage.setItem('usuarioApp', usuario)
             setRedirect({
                 autorizado: true,
                 usuario: 'Usuario',

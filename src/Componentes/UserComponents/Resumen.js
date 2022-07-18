@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faSprayCan } from '@fortawesome/free-solid-svg-icons'
 
 export const Resumen = () => {
+
+
+    
+
+
     return (
         <div>
             <div className="row">
