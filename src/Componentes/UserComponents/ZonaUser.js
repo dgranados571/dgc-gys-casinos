@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { MenuHeader } from './MenuHeader'
-import { RegistroArticulos } from './RegistroArticulos';
+import { Registros } from './Registros';
 import { Resumen } from './Resumen';
-import '../../css/zoneUser.css'
 import { Inventario } from './Inventario';
+
+import '../../css/zoneUser.css'
+
 
 export const ZonaUser = ({ setRedirect }) => {
 
@@ -29,7 +31,7 @@ export const ZonaUser = ({ setRedirect }) => {
       case 'MENU3':
         return (
           <div className='div-container'>
-            <RegistroArticulos/>
+            <Registros/>
           </div>
         )
       default:
